@@ -1,14 +1,14 @@
 
 public class Camcorder extends Item{
-	private int opticalZoom;
+	private int Zoom;
 
-	public Camcorder(String assetTag, String description, int opticalZoom) {
+	public Camcorder(String assetTag, String description, int Zoom) {
 		super(assetTag, description);
-		this.opticalZoom = opticalZoom;
+		this.Zoom = Zoom;
 	}
 
-	public int getOpticalZoom() {
-		return opticalZoom;
+	public int getZoom() {
+		return Zoom;
 	}
 	
 	public String toString(){
