@@ -7,7 +7,7 @@ public class Camcorder extends Item{
 		this.Zoom = Zoom;
 	}
 
-	public int getOpticalZoom() {
+	public int getZoom() {
 		return Zoom;
 	}
 	
