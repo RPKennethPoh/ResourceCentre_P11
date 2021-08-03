@@ -1,14 +1,14 @@
 
 public class Chromebook extends Item{
-	private String os;
+	private String operatingSystem;
 
-	public Chromebook(String assetTag, String description, String os) {
+	public Chromebook(String assetTag, String description, String operatingSystem) {
 		super(assetTag, description);
-		this.os = os;
+		this.operatingSystem = operatingSystem;
 	}
 
 	public String getOs() {
-		return os;
+		return operatingSystem;
 	}
 	
 	public String toString(){
